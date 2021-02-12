@@ -24,7 +24,7 @@ RUN ./gradlew clean build release
 
 ### [vfabric] 
 ## vFabric base stage
-FROM centos:centos6 as vfabric
+FROM centos:centos7 as vfabric
 ENV JAVA_HOME=/usr
 
 # Accept VMware certificate
