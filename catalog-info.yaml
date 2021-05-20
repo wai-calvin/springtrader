@@ -4,7 +4,7 @@ metadata:
   name: springtrader 
   description: Legacy monolith application used in the ignite lab
   annotations:
-    github.com/project-slug: 'liatrio/gratibot'
+    github.com/project-slug: 'liatrio/springtrader'
   tags:
     - ignite-lab
     - website
