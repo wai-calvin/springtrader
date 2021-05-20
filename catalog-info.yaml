@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: gratibot
-  description: Slack bot used to recognize one another’s accomplishments and give shoutouts
+  name: springtrader 
+  description: Legacy monolith application used in the ignite lab
   annotations:
     github.com/project-slug: 'liatrio/gratibot'
   tags:
