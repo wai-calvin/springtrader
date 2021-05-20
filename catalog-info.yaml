@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gratibot
+  description: Slack bot used to recognize one another’s accomplishments and give shoutouts
+  annotations:
+    github.com/project-slug: 'liatrio/gratibot'
+  tags:
+    - ignite-lab
+    - website
+    - monolith
+    - javascript
+    - java
+    - css
+  links:
+    - url: https://ignitelab.liatr.io/#/ 
+      title: Non-Prod Azure Resources
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: liatrio
+  system: gratibot
