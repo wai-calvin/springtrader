@@ -14,10 +14,10 @@ metadata:
     - css
   links:
     - url: https://ignitelab.liatr.io/#/ 
-      title: Non-Prod Azure Resources
+      title: Ignite Lab Documentation 
       icon: dashboard
 spec:
   type: website
   lifecycle: production
   owner: liatrio
-  system: gratibot
+  system: springtrader
