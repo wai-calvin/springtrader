@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: springtrader 
+  description: Legacy monolith application used in the ignite lab
+  annotations:
+    github.com/project-slug: 'liatrio/springtrader'
+  tags:
+    - ignite-lab
+    - website
+    - monolith
+    - javascript
+    - java
+    - css
+  links:
+    - url: https://ignitelab.liatr.io/#/ 
+      title: Ignite Lab Documentation 
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: liatrio
+  system: springtrader
